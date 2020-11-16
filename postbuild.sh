@@ -1,7 +1,9 @@
 #!/bin/bash
 
+echo '......................'
+
 # Add dependencies
-php composer.phar install --no-dev --optimize-autoloader
+echo '### php composer.phar dump-env staging ###'
 php composer.phar dump-env staging
 
 # Configure application
