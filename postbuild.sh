@@ -10,7 +10,7 @@ php composer.phar dump-env prod
 
 echo '### Set Environment variables ###'
 # Configure application
-APP_ENV=prod
+APP_ENV=staging
 APP_DEBUG=0
 
 echo '### Clear cache ###'
