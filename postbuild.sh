@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Add dependencies
 php composer.phar install --no-dev --optimize-autoloader
 php composer.phar dump-env staging
